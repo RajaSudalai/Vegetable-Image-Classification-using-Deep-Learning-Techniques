@@ -22,9 +22,11 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
+models/
 *.egg-info/
 .installed.cfg
 *.egg
+*.hd5
 MANIFEST
 
 # PyInstaller

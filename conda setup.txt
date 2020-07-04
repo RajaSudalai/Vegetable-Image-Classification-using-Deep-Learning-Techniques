@@ -1,0 +1,19 @@
+
+Steps 1: 
+
+Windows, linux:
+conda create -n ca2_aivoyagers python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 tensorflow=1.13.1 tensorflow-gpu=1.13.1 cudatoolkit=9.0 cudnn=7.1.4 scipy=1.1.0 scikit-learn=0.19.1 pillow=5.1.0 spyder=3.3.2 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 yaml pandas keras keras-gpu pydot graphviz
+
+(Assume Cuda 9.0 is installed, and cudnn 7.1.4 installed, get cudnn from https://developer.nvidia.com/rdp/cudnn-archive)
+
+conda create -n ca2_aivoyagers python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 tensorflow=1.13.1 tensorflow-gpu=1.13.1 cudatoolkit=10.0 cudnn=7.6.0 scipy=1.1.0 scikit-learn=0.19.1 pillow=5.1.0 spyder=3.3.2 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 yaml pandas keras keras-gpu pydot graphviz
+
+Mac:
+
+conda create -n ca2_aivoyagers python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 scipy=1.1.0 pillow=5.1.0 tensorflow=1.13.1 scikit-learn=0.19.1 ipykernel=4.10.0 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 spyder yaml keras pandas pydot graphviz
+
+Step 2: Install the following pip packages
+
+pip install imutils
+pip install hyperas
+pip install hyperopt
